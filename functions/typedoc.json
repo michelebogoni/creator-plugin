@@ -1,0 +1,40 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["./src/index.ts"],
+  "out": "../docs/api",
+  "name": "Creator AI Proxy - API Documentation",
+  "readme": "../README.md",
+  "includeVersion": true,
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true,
+  "excludeInternal": false,
+  "exclude": [
+    "**/node_modules/**",
+    "**/*.test.ts",
+    "**/tests/**"
+  ],
+  "theme": "default",
+  "navigationLinks": {
+    "GitHub": "https://github.com/michelebogoni/creator",
+    "Firebase Console": "https://console.firebase.google.com/project/creator-ai-proxy"
+  },
+  "plugin": [],
+  "categorizeByGroup": true,
+  "categoryOrder": [
+    "API Endpoints",
+    "Services",
+    "Providers",
+    "Types",
+    "Middleware",
+    "Utilities",
+    "*"
+  ],
+  "searchInComments": true,
+  "sort": ["source-order"],
+  "validation": {
+    "notExported": true,
+    "invalidLink": true,
+    "notDocumented": false
+  }
+}
